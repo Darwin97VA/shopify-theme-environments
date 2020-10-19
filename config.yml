@@ -1,0 +1,16 @@
+development:
+  password: ${DEV_STORE__PLUGIN_PASSWORD}
+  theme_id: ${DEV_STORE__DEV_THEME}
+  store: ${DEV_STORE}
+testing:
+  password: ${DEV_STORE__PLUGIN_PASSWORD}
+  theme_id: ${DEV_STORE__TEST_THEME}
+  store: ${DEV_STORE}
+production_beta:
+  password: ${PROD_STORE__PLUGIN_PASSWORD}
+  theme_id: ${PROD_STORE__BETA_THEME}
+  store: ${PROD_STORE}
+production_stable:
+  password: ${PROD_STORE__PLUGIN_PASSWORD}
+  theme_id: ${PROD_STORE__STABLE_THEME}
+  store: ${PROD_STORE}
